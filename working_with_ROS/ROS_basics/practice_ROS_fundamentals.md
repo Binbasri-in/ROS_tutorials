@@ -170,7 +170,7 @@ rqt_graph
 ```
 
 - you should see the following output
-![rqt_graph](../images/rqt_graph.png)
+![rqt_graph](../../images/rqt_graph.png)
 
 ## 6. Create a ROS launch file<a id="create-launch-file"></a>
 
