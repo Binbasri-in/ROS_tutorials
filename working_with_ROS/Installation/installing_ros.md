@@ -47,7 +47,7 @@
 
 9. Add the ROS environment variables to your shell session:
    ```shell
-   echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+   echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
    ```
    ```shell
    source ~/.bashrc
