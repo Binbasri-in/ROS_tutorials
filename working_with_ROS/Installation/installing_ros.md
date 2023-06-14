@@ -82,24 +82,6 @@
       ```
     Now, you can control the turtle using the arrow keys.
 
-13. Create a workspace directory for your ROS workspace:
-    ```shell
-    mkdir -p ~/catkin_ws/src
-    ```
-    ```shell
-    cd ~/catkin_ws/
-    ```
-    ```shell
-    catkin init
-    ```
-    ```shell
-    catkin build
-    ```
-    ```shell
-    echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
-    ```
-    You can add the last command to the `~/.bashrc` file to run it automatically when opening a new terminal.
-
 ## Possible Errors and Fixes
 
 1. **"No protocol specified" error:** If you
