@@ -152,16 +152,23 @@ def move_turtle(linear_vel, angular_vel):
 You can call the `move_turtle` function with different linear and angular velocities to control the turtle. For example:
 
 ```python
-move_turtle(1.0, 0.0)  # Move forward with linear velocity of 1.0
-rospy.sleep(2.0)  # Sleep for 2 seconds
-move_turtle(0.0, 
-
-1.0)  # Rotate clockwise with angular velocity of 1.0
-rospy.sleep(2.0)  # Sleep for 2 seconds
-move_turtle(0.0, 0.0)  # Stop the turtle
+while not rospy.is_shutdown():
+    # for 3 seconds move forward
+    move_turtle(2.0, 0.0)
+    rospy.sleep(2.0)
+    # for 1 second rotate left
+    move_turtle(0.0, 1.0)
+    rospy.sleep(1.0)
 ```
 
 Experiment with different velocity values and movement patterns to control the turtle in the turtlesim simulator.
+
+- Finally, you can stop the turtle and shutdown the node:
+
+```python
+move_turtle(0.0, 0.0)  # Stop the turtle
+rospy.signal_shutdown('Stop turtle')
+```
 
 ## Conclusion
 
