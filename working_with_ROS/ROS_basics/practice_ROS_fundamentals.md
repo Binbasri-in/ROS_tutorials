@@ -83,6 +83,9 @@ Catkin is the ROS build system that manages the compilation and organization of 
 <p>Save and close the editor.</p>
 </li>
 </ol>
+or just run the following command in the terminal
+<pre data-code-wrap="sh"><code class="lang-nohighlight">echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
+</code></pre>
 </li>
 </ol>
 
